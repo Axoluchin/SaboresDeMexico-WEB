@@ -21,9 +21,17 @@ h2{
 
 header{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     background-color: #1b1b1b;
     padding: 1rem 2rem;
+    background-image: url("https://images.unsplash.com/photo-1465256410760-10640339c72c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
 }
 
 header img{
@@ -44,6 +52,7 @@ nav ul{
     padding: 0%;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-evenly;
 }
 
@@ -68,6 +77,7 @@ footer {
 footer p{
     width: 70%;
     margin: 0%;
+    padding: 5rem 0rem;
 }
 
 footer ul {
@@ -94,6 +104,7 @@ form{
 
 form div{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 2rem 0;
 }
@@ -117,4 +128,64 @@ form input[type = submit]{
 
 form input[type = submit]:hover{
     background-color: #242b92;
+}
+
+.menuDiv{
+    margin-top: 2rem;
+    padding: 4rem 2rem;
+    background-color: #557366;
+}
+
+.menuDiv article{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.menuDiv h2{
+    margin-bottom: 2rem;
+}
+
+.menuDiv p{
+    width: 50%;
+    font-size: larger;
+}
+
+.menuDiv div{
+    margin: 0% auto;
+    align-items: center;
+}
+
+.menuDiv img{
+    width: 300px;
+    height: 300px;
+    padding: 1rem;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    transition: transform 250ms;
+    position: relative;
+    z-index:2;
+}
+
+.menuDiv img:hover{
+    transform: translate(0px, 120px) ;
+}
+
+.menuDiv a{
+    display: block;
+    position: relative;
+    border: solid 1px #fcfeff;
+    background-color: #557366;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    transform: translate(0, 100px);
+    width: 150px;
+    margin: 0% auto;
+
+    z-index:1;
+}
+
+.ReservaDiv{
+    padding: 4rem 2rem;
+    background-color: #1d2b52;
 }

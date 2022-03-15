@@ -19,6 +19,7 @@
     />
     <link rel="stylesheet" href="css/normalice.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/Slideshow.css" />
   </head>
   <body>
     <header>
@@ -36,10 +37,88 @@
       </ul>
     </nav>
 
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img
+          src="https://images.unsplash.com/photo-1625167171750-419e95f877d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          style="width: 100%"
+        />
+        <div class="text">Delisiosa Comida</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img
+          src="https://images.unsplash.com/photo-1582234372722-50d7ccc30ebd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+          style="width: 100%"
+        />
+        <div class="text">Tacos de nuestras raices</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img
+          src="https://images.unsplash.com/photo-1625166913168-9135c6ffddcb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+          style="width: 100%"
+        />
+        <div class="text">Lo mejor de lo mejor de Xoximilco</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img
+          src="https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+          style="width: 100%"
+        />
+        <div class="text">Mexico is the Shit</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <!-- The dots/circles -->
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <section class="menuDiv">
+      <h2>Descubre los mejores platillos de Xoximilco</h2>
+      <article>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga at
+          quidem, architecto possimus, vel sed corporis nisi ab asperiores
+          itaque, repellendus vitae tempore quo animi corrupti necessitatibus
+          consequuntur ea minima.
+        </p>
+        <div>
+          <a href="html/Reservar.html">Ir Al Menu</a>
+          <img
+            src="https://www.domingosanto.com/img/menu_restaurante-1.jpg"
+            alt="Menu whitexican"
+          />
+        </div>
+      </article>
+    </section>
+
+    <section class="ReservaDiv">
+      <a href="html/Reservar.html">
+        <h2>¡Reversa ahora mismo!</h2>
+      </a>
+    </section>
+
     <footer>
       <p>
-        Direccion sjdkhfkjsdhf ksdjfhskjdfh skdjfhsdkj skdjhfskdjhf ksjdhfkjsd
-        fkjsdhfkj
+        16034 de, Antiguo Canal Cuemanco 3, Pista Olímpica Virgilio Uribe,
+        Xochimilco, Ciudad de México, CDMX
       </p>
       <ul>
         <li><i class="bx bxl-twitter"></i> Twitter</li>
@@ -48,5 +127,7 @@
         <li><i class="bx bxl-instagram"></i> Instagram</li>
       </ul>
     </footer>
+
+    <script src="javascript/Slider.js" />
   </body>
 </html>
