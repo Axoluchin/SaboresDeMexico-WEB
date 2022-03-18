@@ -189,3 +189,32 @@ form input[type = submit]:hover{
     padding: 4rem 2rem;
     background-color: #1d2b52;
 }
+
+.about-section {
+    background-color: #1b1b1b;
+    width: 80%;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.owner {
+    background-color: #1b1b1b;
+    width: 80%;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    font-size: xx-large;
+}
+
+.owner img {
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    margin-right: 50px;
+    float: left;
+    border-radius: 20px;
+}
+
