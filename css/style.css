@@ -197,7 +197,8 @@ form input[type = submit]:hover{
     padding: 2rem;
     border-radius: 2rem;
     font-size: xx-large;
-    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .owner {
@@ -207,6 +208,8 @@ form input[type = submit]:hover{
     padding: 2rem;
     border-radius: 2rem;
     font-size: xx-large;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .owner img {
@@ -217,4 +220,30 @@ form input[type = submit]:hover{
     float: left;
     border-radius: 20px;
 }
+
+.Menu{
+    background-color: #557366;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.Menu .Parent-Box{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+}
+
+.Menu .Child-Box{
+    width: 70%;
+}
+
+.Menu .Precio{
+    float: right;
+}
+
+
 
