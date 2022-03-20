@@ -189,3 +189,61 @@ form input[type = submit]:hover{
     padding: 4rem 2rem;
     background-color: #1d2b52;
 }
+
+.about-section {
+    background-color: #1b1b1b;
+    width: 80%;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    font-size: xx-large;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.owner {
+    background-color: #1b1b1b;
+    width: 80%;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    font-size: xx-large;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.owner img {
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    margin-right: 50px;
+    float: left;
+    border-radius: 20px;
+}
+
+.Menu{
+    background-color: #557366;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.Menu .Parent-Box{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+}
+
+.Menu .Child-Box{
+    width: 70%;
+}
+
+.Menu .Precio{
+    float: right;
+}
+
+
+
